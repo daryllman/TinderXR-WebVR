@@ -7,7 +7,7 @@ No Installation needed. Only need to access WebVR simulation via browser.
 
 ## Usage
 -  This experience is supposed to be integrated as an extension to existing Dating Applications (eg. Tinder).
--  Access [TinderXR](https://xfactar-webvr.glitch.me) (https://<i></i>xfactar-webvr.glitch.me) to experience the Real-time Live Multiplayer VR experience.
+-  Access [TinderXR](https://xfactar-webvr.glitch.me) (https://<i></i>xfactar-webvr.glitch.me) to experience the Real-time Live Multiplayer VR experience - able to invite other friends to open same link and be in same environment
 
 ## Built with 
 * [A-Frame](https://aframe.io/) - Open-source web framework for building VR Experiences (With HTML & Entity-Component)
