@@ -25,6 +25,6 @@ Works on Vive, Oculus Rift, Samsung Gear VR, Google Cardboard, desktop browser, 
 
 ## Credits
 * A-Frame sharedspace-component 
-(https://github.com/delapuente/aframe-sharedspace-component)
+(https://<i></i>github.com/delapuente/aframe-sharedspace-component)
 * Networked A-Frame
-(https://github.com/networked-aframe/networked-aframe)
+(https://<i></i>github.com/networked-aframe/networked-aframe)
