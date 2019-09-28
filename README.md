@@ -20,7 +20,7 @@ Works on Vive, Oculus Rift, Samsung Gear VR, Google Cardboard, desktop browser, 
 ## Authors
 - Daryll Wong - SUTD Sophomore | Information Systems Technology & Design (ISTD)
 - Akmal Hakim Teo - SUTD Sophomore | Information Systems Technology & Design (ISTD)
-- Martin Pung - SUTD Sophomore | Engineering Systems & Design (ESD)
+- Martin Ho - SUTD Sophomore | Engineering Systems & Design (ESD)
 - Natalie Lim - SUTD Sophomore | Engineering Product Development (EPD)
 
 ## Credits
