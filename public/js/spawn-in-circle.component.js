@@ -30,3 +30,5 @@ AFRAME.registerComponent('spawn-in-circle', {
         return { x: x, y: y };
     }
 });
+/ p
+sp

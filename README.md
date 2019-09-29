@@ -8,7 +8,6 @@ No Installation needed. Only need to access WebVR simulation via browser.
 ## User Flow
 On the Tinder UI, users will choose which VR scene they want and send the invite to their tinder partner. Both of them will then access this link and enter this VR experience. For this showcase, we assume the user has chosen the *Suntan Beach* scene.
 
-
 ## Usage
 -  This experience is supposed to be integrated as an extension to existing Dating Applications (eg. Tinder).
 -  Access [TinderXR](https://xfactar-webvr.glitch.me) (https://<i></i>xfactar-webvr.glitch.me) to experience the Real-time Live Multiplayer VR experience - able to invite other friends to open same link and be in same environment
