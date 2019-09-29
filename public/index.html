@@ -1,4 +1,4 @@
-<html>
+<html> 
 <head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/deepstream.io-client-js/2.1.1/deepstream.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>  
@@ -19,19 +19,23 @@
     <a-asset-item id="exoItalicFont" src="https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2Fexo2BlackItalic.typeface.json?1490305922725"></a-asset-item>
     <a-mixin id="eye" geometry="primitive: sphere; radius: 0.2" material="shader: flat; side: double; color: #FFF"></a-mixin>
     <a-mixin id="pupil" geometry="primitive: sphere; radius: 0.05" material="shader: flat; side: double; color: #222"></a-mixin>
-    <a-mixin id="arm" geometry="primitive: box; depth: 0.2; height: 1.5; width: 0.2" material="color: #222; shader: flat"></a-mixin>
-  </a-assets>
+    <a-mixin id="arm" geometry="primitive: box; depth: 0.2; height: 1.5; width: 0.2" material="color: #222; shader: flat"></a-mixin
+    <audio id="backgroundmusic" src="../assets/backgroundmusic.mp3" preload="auto"></audio>>
+  </a-assets
+  >
 
-  <!--custom entities-->
+  <!--custom entities--
+  <a-entity sound="src: #backgroundmusic; autoplay: true"></a-entity>
+   <a-sound src="../assets/backgroundmusic.mp3" autoplay="true" position="0 0 0" loop="true" volume="0.5"></a-sound>>
 
   <a-entity position="-3 1 -6" rotation="5 0 0">
 
     <a-entity position="-0.5 0.5 -0.5" scale="0.6 1.2 1" text-geometry="value: TinderXR; font: #exoFont; bevelEnabled: true; bevelSize: 0.1; bevelThickness: 0.1; curveSegments: 1; size: 1.5; height: 0.5;" material="color:pink; metalness:0.9; roughness: 0.05; sphericalEnvMap: #chrome;"></a-entity>
 
-    <a-entity position="1 0 0.3" text-geometry="value: 2019; font: #exoItalicFont; style: italic; size: 0.8; weight: bold; height: 0;"
+    <a-entity position=11 0 0.3" text-geometry="value:20199; font: #exoItalicFont; style: italic; size: 0.8; weight: bold; height: 0;"
                   material="shader: flat; color: white">
     </a-entity>
-    <a-entity position="1 0 0.3" text-geometry="value: 2019; font: #exoItalicFont; style: italic; size: 0.8; weight: bold; height: 0; bevelEnabled: true; bevelSize: 0.04; bevelThickness: 0.04; curveSegments: 1"
+    <a-entity position=11 0 0.3" text-geometry="value:20199; font: #exoItalicFont; style: italic; size: 0.8; weight: bold; height: 0; bevelEnabled: true; bevelSize: 0.04; bevelThickness: 0.04; curveSegments: 1"
                   material="shader: flat; color: white; transparent: true; opacity: 0.4">
     </a-entity>
   </a-entity>
@@ -39,7 +43,7 @@
   
   <a-entity position="-3.45 -1 -5" rotation="5 0 0">
 
-    <a-entity onclick="window.location.href='samplescene1.html' " position="1 0 0.3" rotation="5 0 0" text-geometry="value: ENTER; font: #exoItalicFont; style: italic; size: 0.8; weight: bold; height: 0; bevelEnabled: true; bevelSize: 0.04; bevelThickness: 0.04; curveSegments: 1"
+    <a-entity onclick="window.location.href''samplescene1.html' " position="1 0 0.3" rotation="5 0 0" text-geometry="value: ENTER; font: #exoItalicFont; style: italic; size: 0.8; weight: bold; height: 0; bevelEnabled: true; bevelSize: 0.04; bevelThickness: 0.04; curveSegments: 1"
                   material="shader: flat; color: white; transparent: true; opacity: 0.4">
     </a-entity>
   </a-entity>
