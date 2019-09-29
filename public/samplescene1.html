@@ -20,8 +20,12 @@
     ">
       <a-assets>
 
-        <img id="grid" src="https://img.gs/bbdkhfbzkk/stretch/https://i.imgur.com/25P1geh.png" crossorigin="anonymous">
-        <img id="sky" src="https://img.gs/bbdkhfbzkk/2048x2048,stretch/http://i.imgur.com/WqlqEkq.jpg" crossorigin="anonymous" />
+<!--         <img id="grid" src="https://img.gs/bbdkhfbzkk/stretch/https://i.imgur.com/25P1geh.png" crossorigin="anonymous">
+        <img id="sky" src="https://img.gs/bbdkhfbzkk/2048x2048,stretch/http://i.imgur.com/WqlqEkq.jpg" crossorigin="anonymous" /> -->
+        
+        <img id="sky" src="https://cdn.glitch.com/2e19f667-f702-4125-8e7b-a54773c27734%2Fbeach_skybox.png?v=1569697740773" crossorigin="anonymous"> 
+        <a-assets-item id="beach" src="scene.gltf"></a-assets-item>
+        
 
         <!-- Templates -->
 
@@ -78,7 +82,7 @@
         ></a-sphere>
       </a-entity>
 
-      <a-entity position="0 0 0"
+<!--       <a-entity position="0 0 0"
         geometry="primitive: plane; width: 10000; height: 10000;" rotation="-90 0 0"
         material="src: #grid; repeat: 10000 10000; transparent: true; metalness:0.6; roughness: 0.4; sphericalEnvMap: #sky;"></a-entity>
 
@@ -87,18 +91,12 @@
 
       <a-sky src="#sky" rotation="0 -90 0"></a-sky>
       <a-entity id="particles" particle-system="preset: snow"></a-entity>
-    </a-scene>
-
-    <script>
-      // On mobile remove elements that are resource heavy
-      var isMobile = AFRAME.utils.device.isMobile();
-
-      if (isMobile) {
-        var particles = document.getElementById('particles');
-        particles.parentNode.removeChild(particles);
+    </a-scene> -->
+         // On mobile remove elements that are resource heavy
+      vs.parentNode.removeChild(particles);
       }
       
-      // Define custom schema for syncing avatar color, set by random-color
+      // Define custom schema f position="-110 -84 -110"or syncing avatar color, set by random-color
       NAF.schemas.add({
         template: '#avatar-template',
         components: [
@@ -114,3 +112,4 @@
     </script>
   </body>
 </html>
+      </a-scene>a
